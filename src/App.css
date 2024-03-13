@@ -119,3 +119,30 @@ button{
   border-radius: 10px;
   background-color: rgb(159, 250, 159);
 }
+
+.notFound {
+  height: 92.3vh;
+  width: 100%;
+  color: white;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+.volver {
+  border: solid 1px white;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.volver:hover{
+  background-color: pink;
+  color: red;
+}
+.logo-not {
+  font-size: 70px;
+}
